@@ -1,0 +1,34 @@
+{
+  "name": "lego",
+  "version": "1.0.0",
+  "description": "Handcrafted Vue components to help you create amazing uis.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimitiveSocial/lego.git"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "select",
+    "input",
+    "tailwind",
+    "config",
+    "ui"
+  ],
+  "author": "Elie Andraos <elie@leadwithprimitive.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrimitiveSocial/lego/issues"
+  },
+  "homepage": "https://github.com/PrimitiveSocial/lego#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
