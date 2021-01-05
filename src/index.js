@@ -1,7 +1,7 @@
 import VIcon from './components/VIcon';
 
 const VueLego = {
-    install(Vue, options) {
+    install(Vue) {
         Vue.component("v-icon", VIcon);
     }
 };
