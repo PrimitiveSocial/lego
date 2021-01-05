@@ -33,17 +33,8 @@ module.exports = {
             }
         ]
     },
-    externals: {
-        vue: 'vue'
-    },
     resolve: {
-        extensions: ['.js', '.vue', '.json'],
-        alias: {
-            'vue$': 'vue/dist/vue.esm.js'
-        }
-    },
-    performance: {
-        hints: false
+        extensions: ['.js', '.vue', '.svg'],
     },
     plugins: [
         new VueLoaderPlugin(),
