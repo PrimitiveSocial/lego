@@ -33,7 +33,7 @@ export default {
         }
     },
     created() {
-        import('!html-loader!../svg/' + this.type + '/' + this.name + '.svg')
+        import('../svg/' + this.type + '/' + this.name + '.svg')
             .then( (h) => {
                 this.icon = h.default;
             })
