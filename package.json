@@ -4,7 +4,7 @@
   "description": "Handcrafted Vue components to help you create amazing uis.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "build": "webpack --config ./webpack.config.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,27 +27,22 @@
   },
   "homepage": "https://github.com/PrimitiveSocial/lego#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "babel-eslint": "^10.1.0",
-    "cross-env": "^7.0.3",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
     "eslint": "^7.17.0",
-    "eslint-plugin-vue": "^7.4.0",
-    "laravel-mix": "^6.0.6",
-    "postcss": "^8.2.2"
+    "eslint-webpack-plugin": "^2.4.1",
+    "html-loader": "^1.3.2",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
   },
-  "dependencies": {},
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  }
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "dependencies": {}
 }
