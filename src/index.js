@@ -1,8 +1,10 @@
-import VIcon from './components/VIcon';
+import Icon from "./components/Icon";
+import TextInput from "./components/TextInput";
 
 const VueLego = {
     install(Vue) {
-        Vue.component("v-icon", VIcon);
+        Vue.component("icon", Icon);
+        Vue.component("text-input", TextInput);
     }
 };
 
