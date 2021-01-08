@@ -57,7 +57,7 @@
 <script>
 import Icon from "@/components/Icon";
 import ClickOutside from 'vue-click-outside';
-import { DROPDOWN_EMPTY_OPTIONS_PROP, DROPDOWN_REQUIRED_VMODEL_AND_OR_OPTIONS_PROP} from "@/debugger";
+import { DROPDOWN_EMPTY_OPTIONS_PROP, DROPDOWN_REQUIRED_VMODEL_AND_OR_OPTIONS_PROP} from "@/config/debugger";
 
 export default {
     components: {
