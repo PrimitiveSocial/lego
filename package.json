@@ -46,5 +46,7 @@
   "peerDependencies": {
     "vue": "^2.6.11"
   },
-  "dependencies": {}
+  "dependencies": {
+    "vue-click-outside": "^1.1.0"
+  }
 }
