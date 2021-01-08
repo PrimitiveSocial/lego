@@ -35,6 +35,9 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js', '.vue', '.svg'],
+        alias: {
+            '@': path.resolve(__dirname, 'src/')
+        }
     },
     plugins: [
         new VueLoaderPlugin(),
