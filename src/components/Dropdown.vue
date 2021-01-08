@@ -147,7 +147,7 @@ export default {
                 return this.options;
             } else {
                 return this.options.filter(option => {
-                    return option.value
+                    return option.label
                         .toLowerCase()
                         .includes(this.search.toLowerCase());
                 });
