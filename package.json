@@ -1,6 +1,6 @@
 {
   "name": "lego",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Handcrafted Vue components to help you create amazing uis.",
   "main": "dist/index.js",
   "scripts": {
@@ -17,7 +17,11 @@
     "component",
     "select",
     "input",
+    "toggle",
+    "radio",
+    "checkbox",
     "tailwind",
+    "svg",
     "config",
     "ui"
   ],
