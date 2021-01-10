@@ -1,10 +1,28 @@
 # Lego
 Handcrafted Vue components to help you create amazing uis.
 
-## Local development flow
-package directory: run `npm link`
-project directory using the package: `npm link lego`
+## Installation
+```javascript
+npm i @primitivesocial/lego --save
+```
+### Usage
+```javascript
+import VueLego from "lego";
+Vue.use(VueLego);
+```
 
-This will create a symlink between the package, and the project using it.`
-Every time you want to test a new feature of the package, just run `npm link` again in your package directory, 
-it will update the build inside your project's `node_modules`
+### Available Components
+- `<icon>`
+- `<primary-button>`
+- `<secondary-button>`
+- `<text-input>`
+- `<dropdown>`
+- `<checkbox-input>`
+- `<radio-input>`
+- `<tabs>`
+- `<toggle>`
+
+## Author & Contribution
+Hey, I'm Elie Andraos, a web developer at [Primitive](https://twitter.com/lead_primitive).
+Pull requests are always welcome. For major changes, please open an issue first to discuss what you would like to change.
+You can also [reach me out on twitter](https://twitter.com/andzilla31) for any question!
