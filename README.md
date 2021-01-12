@@ -11,6 +11,11 @@ import VueLego from "@primitivesocial/lego";
 Vue.use(VueLego);
 ```
 
+### Custom lego config
+```javascript
+window.Lego = require('path/to/lego.config.js');
+```
+
 ### Available Components
 - `<icon>`
 - `<primary-button>`
