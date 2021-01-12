@@ -38,9 +38,9 @@ export default {
         }
     },
     watch: {
-        isChecked: {
+        selected: {
             handler: function() {
-                this.$emit('input', this.isChecked);
+                this.$emit('input', this.selected);
             },
             immediate: true
         }
@@ -48,7 +48,7 @@ export default {
     created() {
         let config = ( window.Lego && typeof (window.Lego) === 'object' ) ? window.Lego : require('./../config/lego.config');
         this.classLists = config.radioInput;
-
+        
         this.selected = this.value;
     }
 }
