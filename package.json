@@ -1,6 +1,6 @@
 {
   "name": "@primitivesocial/lego",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handcrafted Vue components to help you create amazing uis.",
   "main": "dist/index.js",
   "scripts": {
