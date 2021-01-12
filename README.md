@@ -7,7 +7,7 @@ npm i @primitivesocial/lego --save
 ```
 ### Usage
 ```javascript
-import VueLego from "lego";
+import VueLego from "@primitivesocial/lego";
 Vue.use(VueLego);
 ```
 
