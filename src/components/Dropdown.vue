@@ -137,7 +137,7 @@ export default {
 
             let keys = [];
             this.selectedOptions.forEach( option => {
-                keys.push(option.key);
+                keys.push(option.value);
             })
 
             return (this.multiple) ? keys : keys[0];
@@ -202,7 +202,7 @@ export default {
         selectedValues.forEach( item => {
             this.selectedOptions.push(
                 this.options.find(function(option) {
-                    return item === option.key;
+                    return item === option.value;
                 })
             );
         })
