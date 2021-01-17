@@ -10,17 +10,17 @@ import PrimaryButton from "@/components/PrimaryButton";
 import SecondaryButton from "@/components/SecondaryButton";
 
 const VueLego = {
-    install(Vue) {
-        Vue.component("tab", Tab);
-        Vue.component("icon", Icon);
-        Vue.component("tabs", Tabs);
-        Vue.component("toggle", Toggle);
-        Vue.component("dropdown", Dropdown);
-        Vue.component("text-input", TextInput);
-        Vue.component("radio-input", RadioInput);
-        Vue.component("checkbox-input", CheckboxInput);
-        Vue.component("primary-button", PrimaryButton);
-        Vue.component("secondary-button", SecondaryButton);
+    install(Vue, options) {
+        Vue.component(options?.tab || "tab", Tab);
+        Vue.component(options?.icon || "icon", Icon);
+        Vue.component(options?.tabs || "tabs", Tabs);
+        Vue.component(options?.toggle || "toggle", Toggle);
+        Vue.component(options?.dropdown || "dropdown", Dropdown);
+        Vue.component(options?.textInput || "text-input", TextInput);
+        Vue.component(options?.radioInput || "radio-input", RadioInput);
+        Vue.component(options?.checkboxInput || "checkbox-input", CheckboxInput);
+        Vue.component(options?.primaryButton || "primary-button", PrimaryButton);
+        Vue.component(options?.secondaryButton || "secondary-button", SecondaryButton);
     }
 };
 
