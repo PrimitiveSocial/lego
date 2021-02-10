@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const scriptsDir = path.resolve(__dirname);
 
-fs.copyFile( scriptsDir + '/../src/config/lego.config.js', process.env.PWD +'/lego.config.js', (err) => {
+fs.copyFile( scriptsDir + '/lego.config.js', process.env.PWD +'/lego.config.js', (err) => {
     if (err) {
         throw err;
     } else {
