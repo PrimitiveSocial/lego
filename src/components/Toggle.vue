@@ -45,7 +45,7 @@ export default {
         }
     },
     created() {
-        let config = ( window.Lego && typeof (window.Lego) === 'object' ) ? window.Lego : require('./../config/lego.config');
+        let config = ( window.Lego && typeof (window.Lego) === 'object' ) ? window.Lego : require('./../../scripts/lego.config');
         this.classLists = config.toggle;
         this.isOn = this.value;
     }

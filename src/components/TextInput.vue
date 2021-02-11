@@ -33,7 +33,7 @@ export default {
         }
     },
     created() {
-        let config = ( window.Lego && typeof (window.Lego) === 'object' ) ? window.Lego : require('./../config/lego.config');
+        let config = ( window.Lego && typeof (window.Lego) === 'object' ) ? window.Lego : require('./../../scripts/lego.config');
 
         let { textinput } = config;
         this.classList = textinput;
