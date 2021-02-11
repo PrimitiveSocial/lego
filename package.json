@@ -1,13 +1,13 @@
 {
   "name": "@primitivesocial/lego",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Handcrafted Vue components to help you create amazing uis.",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --config ./webpack.config.js --progress",
     "lint": "eslint ./src --ext .js --ext .vue",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node scripts/generate-config.js"
+    "lego:config": "node scripts/generate-config.js"
   },
   "repository": {
     "type": "git",
